@@ -1,0 +1,27 @@
+# Test files
+test.js
+*.test.js
+*.spec.js
+
+# Development files
+.gitignore
+.eslintrc
+.prettierrc
+
+# IDE
+.vscode/
+.idea/
+
+# Git
+.git/
+.gitattributes
+
+# CI/CD
+.github/
+.travis.yml
+
+# Documentation source
+docs/
+
+# Examples
+examples/

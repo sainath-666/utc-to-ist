@@ -1,0 +1,41 @@
+{
+  "name": "utc-to-ist",
+  "version": "1.0.0",
+  "description": "A lightweight JavaScript utility to convert UTC time to IST (Indian Standard Time) and vice versa",
+  "keywords": [
+    "utc",
+    "ist",
+    "timezone",
+    "time-conversion",
+    "indian-standard-time",
+    "datetime",
+    "time",
+    "converter",
+    "india"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sainath-666/utc-to-ist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sainath-666/utc-to-ist/issues"
+  },
+  "homepage": "https://github.com/sainath-666/utc-to-ist#readme",
+  "license": "MIT",
+  "author": "Sai",
+  "type": "commonjs",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
