@@ -57,8 +57,10 @@ const istTime = utcToIst();
 ```html
 <script src="node_modules/utc-to-ist/index.js"></script>
 <script>
-  const { utcToIst, formatIst } = require("utc-to-ist");
+  // Functions are available globally on the window object
   console.log(formatIst());
+  console.log(utcToIst());
+  console.log(istToUtc());
 </script>
 ```
 
@@ -155,7 +157,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Issues
 
-If you find any bugs or have feature requests, please create an issue on [GitHub](https://github.com/yourusername/utc-to-ist/issues).
+If you find any bugs or have feature requests, please create an issue on [GitHub](https://github.com/sainath-666/utc-to-ist/issues).
 
 ## Changelog
 

@@ -12,8 +12,18 @@ function formatIst(date = new Date()) {
   return utcToIst(date).toISOString().replace("T", " ").slice(0, 19);
 }
 
-module.exports = {
-  utcToIst,
-  istToUtc,
-  formatIst
-};
+// Support for CommonJS (Node.js) and Browser
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = {
+    utcToIst,
+    istToUtc,
+    formatIst,
+  };
+} else {
+  // Support for Browser (Global Scope)
+  if (typeof window !== "undefined") {
+    window.utcToIst = utcToIst;
+    window.istToUtc = istToUtc;
+    window.formatIst = formatIst;
+  }
+}
