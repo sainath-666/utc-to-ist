@@ -1,5 +1,5 @@
 {
-  "name": "utc-to-ist-converter",
+  "name": "sai-utc-to-ist-time",
   "version": "1.0.0",
   "description": "A lightweight JavaScript utility to convert UTC time to IST (Indian Standard Time) and vice versa",
   "keywords": [
