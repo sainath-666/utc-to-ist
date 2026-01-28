@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sainath-666/utc-to-ist.git"
+    "url": "git+https://github.com/sainath-666/utc-to-ist.git"
   },
   "bugs": {
     "url": "https://github.com/sainath-666/utc-to-ist/issues"
